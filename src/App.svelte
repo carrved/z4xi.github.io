@@ -1,7 +1,7 @@
 <script>
   import "fluent-svelte/theme.css";
+  import Buttons from './lib/Buttons.svelte';
   import { TextBlock } from "fluent-svelte";
-  import Buttons from './lib/Buttons.svelte'
   import { onMount } from 'svelte';
   import { fade, scale } from 'svelte/transition';
 
@@ -11,7 +11,6 @@
 
 <main>
   {#if ready}
-  
   <div>
     
   </div>
@@ -24,6 +23,7 @@
     <p in:scale out:fade> </p>
     <hr in:scale out:fade />
     <p in:scale out:fade> </p>
+    <hr in:scale out:fade />
     <Buttons />
   </div>
   {/if}

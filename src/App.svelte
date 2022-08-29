@@ -15,15 +15,14 @@
     
   </div>
     <div class="content">
-      <center><TextBlock ref="title" variant="display">z4xi</TextBlock></center> 
+      <TextBlock ref="title" variant="display">z4xi</TextBlock>
     </div>
-  <p in:scale out:fade>lua dev, and cat enthousiast</p>
+    <TextBlock variant="subtitle">lua dev, and cat enthousiast</TextBlock>
 
   <div class="buttons">
-    <p in:scale out:fade> </p>
-    <hr in:scale out:fade />
-    <p in:scale out:fade> </p>
-    <hr in:scale out:fade />
+    <p in:scale> </p>
+    <hr in:scale />
+    <p in:scale> </p>
     <Buttons />
   </div>
   {/if}
